@@ -40,7 +40,7 @@ This folder contains scripts and functions used to test independent component an
 - `k_wave_sim_timelag`
     - runs 1000 iterations for example from kwave (60 hz and 23 hz) 
     - accounts for time lag by direct computation from distance between source/sensor and speed of sound in medium defined
-- `real_data_simulation'
+- `real_data_simulation`
     - runs 1000 iterations for example with real test data loaded in
 - `optimization_plots.m`
     - Plots mixed component signals
