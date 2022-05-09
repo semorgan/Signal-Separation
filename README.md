@@ -77,3 +77,10 @@ This folder contains scripts and functions used to test independent component an
 
 
 
+## k-Wave
+
+This code uses V1.3 of the Matlab k-Wave toolbox for a couple of tests in the ICA folder.
+
+
+B. E. Treeby and B. T. Cox, "k-Wave: MATLAB toolbox for the simulation and reconstruction of photoacoustic wave-fields," J. Biomed. Opt., vol. 15, no. 2, p. 021314, 2010.
+
