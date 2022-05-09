@@ -70,6 +70,10 @@ This folder contains scripts and functions used to test independent component an
     - Calculates coherence matrix for real data loaded in 
     - Performs SRCM and SAMD matrix permutations
     
+    
+## Test Data Folder
+
+- where to put data to be loaded in for testing of real data examples
 
 
 
