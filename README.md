@@ -1,4 +1,4 @@
-# Signal-Separation
+# Signal-Separation & Array Coherence
 
 
 ## Background Statistics Folder
