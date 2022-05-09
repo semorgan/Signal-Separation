@@ -2,9 +2,9 @@
 
 
 ## Background Statistics Folder
-- `whitening.m': script which generates plot of whitening transformation on Gaussian random variables
-- `joint_distributions.m': script which generates plots of joint distributions of Gaussian and non-Gaussian random variables before and after orthogonal transformation
-- `cross_corr_ex.m': script that generates figures showing an example of finding time lag with cross correlation
+- `whitening.m`: script which generates plot of whitening transformation on Gaussian random variables
+- `joint_distributions.m`: script which generates plots of joint distributions of Gaussian and non-Gaussian random variables before and after orthogonal transformation
+- `cross_corr_ex.m`: script that generates figures showing an example of finding time lag with cross correlation
 
 
 ## ICA Folder
@@ -49,24 +49,24 @@ This folder contains scripts and functions used to test independent component an
     - Plots FFT of independent components after separation
     - Plots FFT of original signals before mixing
     - Plots FFT of mixed signals
-- `simulation_plots.m'
+- `simulation_plots.m`
     - Plots bar graphs and creates tables for percentage of algorithm runs with ratio of 2nd hughest to highest peak frequency amplitudes after separation
 
 
 ## Array Coherence Folder
 
-- `matrix_reordering.m'
+- `matrix_reordering.m`
     - Plots sparsity structure of matrix with SRCM and SAMD permutations
-- `coherence_square_hat.m'
+- `coherence_square_hat.m`
     - Calculates coherence matrix for square and hat function
     - Performs SRCM and SAMD matrix permutations
-- `coherence_square_hat_shift.m'
+- `coherence_square_hat_shift.m`
     - Calculates coherence matrix for shifted square and hat functions
     - Performs SRCM and SAMD matrix permutations
-- `coherence_square_hat_shift_nonideal.m'
+- `coherence_square_hat_shift_nonideal.m`
     - Calculates coherence matrix for shifted square and hat function with nonideal separation
     - Performs SRCM and SAMD matrix permutations
-- `coherence_real_data.m'
+- `coherence_real_data.m`
     - Calculates coherence matrix for real data loaded in 
     - Performs SRCM and SAMD matrix permutations
     
