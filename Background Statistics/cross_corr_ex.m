@@ -2,7 +2,7 @@
 clear; close all; clc;
 
 fig_folder_path = '/Users/semorgan/Documents/MATLAB/Signal-Separation-Github/Background Statistics/figures/';
-save_figures = 1;
+save_fig = 1;
 
 %% Cross correlation example with Ricker wavelets
 
@@ -46,7 +46,7 @@ xlabel('Time (sec)', 'FontSize', 14)
 title('Impulsive Signals (Ricker Wavelet)', 'FontSize',title_font_size)
 lgd = legend('$\vec{s_1}$','$\vec{s_2}$','Interpreter','Latex');
 lgd.FontSize = 16;
-if save_figures
+if save_fig
     saveas(gcf, [fig_folder_path 'impulsive_signals.png'])
 end
 
@@ -58,7 +58,7 @@ xlabel('Time Lag (sec)', 'FontSize', 14)
 title('Cross Correlation', 'FontSize',title_font_size)
 ylim([min(r)-.1, max(r)+.1])
 
-if save_figures
+if save_fig
     saveas(gcf, [fig_folder_path 'cross_corr.png'])
 end
 
